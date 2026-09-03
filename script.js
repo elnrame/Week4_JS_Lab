@@ -20,3 +20,26 @@ if (localStorage.getItem("theme") === "dark")
 {
  document.body.classList.add("dark-mode");
 }
+
+document.getElementById("addTask").addEventListener("click",
+function() {
+    let taskText = document.getElementById("taskInput").value;
+    if (taskText.trim() === "")
+return; 
+    let newTask = document.createElement("li");
+    newTask.innerHTML = `${taskText}
+<button class="removeTask">Remove</button>`;
+ 
+    document.getElementById("taskList").appendChild(newTask);
+    document.getElementById("taskInput").value
+= "";
+});
+ 
+// Remove Task
+document.getElementById("taskList").addEventListener("click",
+function(event) {
+    if (event.target.classList.contains("removeTask"))
+{
+        event.target.parentElement.remove();
+    }
+});
