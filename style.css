@@ -4,11 +4,11 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background-color: #b6b6b6; 
+    background-color: #785949; 
 }
 header {
-    background-color: #3c0707;
-    color: #ffffff;
+    background-color: #A67C66;
+    color: #3E2E26;
     padding: 20px;
     text-align: center;
 }
@@ -45,7 +45,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: #3E2E26;
     text-decoration: none;
 }
 nav ul li a:hover {
@@ -61,8 +61,8 @@ main {
 section {
     margin-bottom: 20px;
     padding: 10px;
-    background-color: #400c0c;
-    border: 1px solid #ddd;
+    background-color: #A67C66;
+    border: 1px solid #;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 form {
@@ -76,14 +76,14 @@ input, textarea, button {
     border-radius: 5px;
 }
 button {
-    background-color: #c47b7bdd;
+    background-color: #D4A694;
     color: rgb(255, 255, 255);
-    color: white;
+    color: #3E2E26;
     border: none;
     cursor: pointer;
 }
 button:hover {
-    background-color: #8d6161;
+    background-color: #b67f6d;
 
 }
 footer {
