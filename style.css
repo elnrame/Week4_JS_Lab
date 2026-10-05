@@ -1,6 +1,6 @@
 body {
     color: white;
-    font-family: Arial, sans-serif;
+    font-family: Times New Roman, Times, serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -74,6 +74,7 @@ input, textarea, button {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: Times New Roman, Times, serif;
 }
 button {
     background-color: #D4A694;
@@ -81,6 +82,7 @@ button {
     color: #3E2E26;
     border: none;
     cursor: pointer;
+    font-family: Times New Roman, Times, serif;
 }
 button:hover {
     background-color: #b67f6d;
@@ -90,7 +92,7 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #f9f7f7;
-    color: #fff;
+    color: #A67C66;
 
 }
 
